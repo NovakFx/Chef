@@ -7,22 +7,31 @@ export default {
   theme: {
     extend: {
       screens: {
-        'sm': '320px',
-        // => @media (min-width: 640px) { ... }
-  
-        'md': '734px',
-        // => @media (min-width: 768px) { ... }
-  
+        'ms': '300px',
+        
+        'ms1': '360px',
+
+        'sm': '400px',
+        
+        'md': '768px',
+   
         'lg': '1024px',
-        // => @media (min-width: 1024px) { ... }
   
         'xl': '1280px',
-        // => @media (min-width: 1280px) { ... }
-  
+
+        'xl2': '1300px',
+
         '2xl': '1536px',
-        // => @media (min-width: 1536px) { ... }
       },
+
+      colors: {
+        customGreen: 'rgba(23, 175, 38, 1)',
+        customDarkGreen: 'rgba(5, 66, 44, 1)',
+        customLightGreen: 'rgba(23, 175, 38, 1)',
+        customgray: 'rgba(113, 115, 120, 1)',
+       }
+
     },
-  },
+  }, 
   plugins: [],
 }
