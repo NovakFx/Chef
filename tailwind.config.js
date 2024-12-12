@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -18,6 +19,7 @@ export default {
         'lg': '1024px',
   
         'xl': '1280px',
+
 
         'xl2': '1300px',
 

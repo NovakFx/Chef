@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { CiSearch } from "react-icons/ci";
-import { IoBagOutline } from "react-icons/io5";
+// import { IoBagOutline } from "react-icons/io5";
 import { FaBars, FaTimes } from 'react-icons/fa';
 import HambugerNavbar from './DownNavBars/HambugerNavbar';
 
@@ -66,6 +66,7 @@ const NavbarUp = () => {
           <div className="bg-green-400 py-3 px-3 md:mx-0 text-white text-2xl ms:w-12 rounded-full hidden sm:block xl:hidden ms:block">
             <CiSearch />
           </div>
+
         </div>
       </nav>
 
