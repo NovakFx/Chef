@@ -19,8 +19,12 @@ export default {
         'xl': '1280px',
         // => @media (min-width: 1280px) { ... }
   
-        '2xl': '1536px',
+        '2xl': '1736px',
         // => @media (min-width: 1536px) { ... }
+      },
+      colors: {
+       
+        customGreen: ' rgba(23, 175, 38, 1)',
       },
     },
   },
