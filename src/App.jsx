@@ -1,13 +1,22 @@
 import './App.css';
-import NavbarDown from './Component/Navbars/NavbarDown';
+import {  Routes, Route } from 'react-router-dom';
+import NavbarDown from './Component/Navbars/DownNavBars/NavbarDown';
 import NavbarUp from './Component/Navbars/NavbarUp';
+import HomePage from './Component/Home/HomePage';
+import ShopAllPage from './Component/ShopAll/ShopAllPage';
 
 function App() {
   return (
-    <div className="App">
+    <>
     <NavbarUp />
     <NavbarDown />
-    </div>
+
+      <Routes>
+        <Route path='/' element={<HomePage />} />   
+        <Route path='/ShopAllPage' element={<ShopAllPage />} />
+      </Routes>
+    
+    </>
   );
 }
 
