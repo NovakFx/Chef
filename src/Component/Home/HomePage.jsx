@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaTruckFast } from "react-icons/fa6";
+import { RiSecurePaymentLine } from "react-icons/ri";
+import { TbShoppingCartDollar } from "react-icons/tb";
 
 const HomePage = () => {
 
@@ -61,7 +63,7 @@ const HomePage = () => {
         </div>
 
         <div className="relative">
-          <div className="absolute left-2 top-11 ms:top-12 ms1:top-44 ms1:-left-2 sm:top-52 sm:left-0 pro:top-44 ms2:top-[200px] ms2:left-0 md:top-[218px] md1:top-[220px] lg:top-[520px] xl:-top-40 xl:left-[42rem] xl2:-top-44 xl2:left-[49rem]">
+          <div className="absolute left-2 top-11 ms:top-12 ms1:top-44 ms1:-left-2 sm:top-52 sm:left-0 pro:top-44 ms2:top-[200px] ms2:left-0 md:top-[218px] md1:top-[220px] lg:top-[520px] xl:-top-40 xl:left-[42rem] xl2:-top-44 xl2:left-[49rem] ">
             <img src="image/image9.png" alt="" className="ms:w-24 ms1:w-32 ms2:w-32 sm:w-36 md:w-52 md1:w-60 lg:w-80 xl:w-52" />
           </div>
           <div className="absolute ms:left-28 ms:-bottom-10 ms1:-bottom-48 ms1:left-28 sm:-bottom-56 sm:left-28 pro:-bottom-44 ms2:-bottom-48 ms2:left-32 md:-bottom-48 md:left-60 md1:-bottom-52 md1:left-72 lg:-bottom-[520px] xl:-top-96 xl:left-[56rem] xl2:-top-[25rem] xl2:left-[62rem]">
@@ -73,14 +75,34 @@ const HomePage = () => {
         </div>
       </div>
     
+
     <div className=' mx-auto '>
-      <div className='px-3 bg-mintCream h-[654px] py-11 '>
-        <div className=''>
-          <div className='bg-white py-4 px-4 w-14  rounded-full'><FaTruckFast className='text-2xl '/></div>
-          <h1>Reliable Shipping</h1>
-          <p>Green Society offers Canada Post Xpress Shipping straight to your door! You can also choose to add shipping insurance. Enjoy free shipping on orders exceeding $149!</p>
+      <div className='px-3 bg-mintCream h-auto py-11 md:px-10 xl:px-5'>
+        <div className='xl:grid xl:grid-cols-3 xl:gap-5'>
+        <div className='grid grid-cols-[4rem_auto] md:grid-cols-[5rem_auto] xl:grid-cols-[6rem_auto]'>
+        <FaTruckFast className='text-5xl bg-white py-3 px-3 rounded-full md:text-7xl md:py-5 md:px-5  xl:py-5 xl:px-5'/> 
+        <div>
+          <h1 className='text-xl font-bold inline-flex gap-5 md:text-2xl md:gap-6 xl:text-xl'> Reliable Shipping</h1>
+          <p className='pt-4 text-sm text-customgray md:text-lg md:pt-3 xl:text-base'>Green Society offers Canada Post Xpress Shipping straight to your door! You can also choose to add shipping insurance. Enjoy free shipping on orders exceeding $140!</p>
+          </div>
         </div>
 
+        <div className='pt-4 grid grid-cols-[4rem_auto] md:grid-cols-[5rem_auto] md:pt-7 xl:grid-cols-[6rem_auto] xl:pt-0'>
+        <RiSecurePaymentLine className='text-5xl bg-white py-3 px-3   rounded-full md:text-7xl md:py-5 md:px-5 xl:py-5 xl:px-5'/>
+        <div>
+          <h1 className='text-xl font-bold inline-flex gap-5 md:text-2xl md:gap-6 xl:text-xl'> You’re Safe With Us</h1>
+          <p className='pt-4 text-sm text-customgray md:text-lg md:pt-3 xl:text-base'>Our secure payment system accepts debit, major credit cards, and cryptocurrency, ensuring a quick and simple checkout process every single time you shop.</p>
+          </div>
+        </div>
+
+        <div className='pt-4  grid grid-cols-[4rem_auto] md:grid-cols-[5rem_auto] md:pt-7 xl:grid-cols-[6rem_auto] xl:pt-0'>
+        <TbShoppingCartDollar className='text-5xl bg-white py-3 px-3   rounded-full md:text-7xl md:py-5 md:px-5 xl:py-5 xl:px-5'/>
+        <div>
+          <h1 className='text-xl font-bold inline-flex gap-5 md:text-2xl md:gap-6 xl:text-xl'>Best Quality & Pricing</h1>
+          <p className='pt-4 text-sm text-customgray md:text-lg md:pt-3 xl:text-base'>At Green Society, we’re proud to deliver top-notch products and service. We aim to provide your medication safely while keeping our prices fair and affordable.</p>
+          </div>
+        </div>
+        </div>
       </div>
       <div>Lorem ipsum dolor sit amet.</div>
       <div>Lorem ipsum dolor sit amet.</div>

@@ -58,7 +58,7 @@ const NavbarUp = () => {
               </div>
             </div>
 
-            <div className="py-2 flex gap-10 items-center text-xl  sm:text-lg sm:gap-2 sm:pl-6 sm:my-auto sm:mx-auto ms:text-sm ms:py-0 ms:pl-4 ms:gap-5 md:text-3xl md:px-4 xl:text-lg xl:gap-6 text-customgray ">
+            <div className="py-2 flex gap-10 items-center text-xl  sm:text-sm sm:gap-2 sm:pl-6 sm:my-auto sm:mx-auto ms:text-sm ms:py-0 ms:pl-4 ms:gap-5 md:text-3xl md:px-4 xl:text-lg xl:gap-6 text-customgray ">
               <button>Your Account</button>
               <IoBagOutline className="text-2xl sm:text-xl mx-1 md:text-3xl" />
             </div>

@@ -28,7 +28,7 @@ export default {
 
         'xl2': '1440px',
 
-        // '2xl': '1536px',
+        '2xl': '1536px',
       },
 
       colors: {
