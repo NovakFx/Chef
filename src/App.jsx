@@ -1,5 +1,5 @@
 import './App.css';
-import {  Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import NavbarDown from './Component/Navbars/DownNavBars/NavbarDown';
 import NavbarUp from './Component/Navbars/NavbarUp';
 import HomePage from './Component/Home/HomePage';
@@ -14,10 +14,10 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage />} />   
         <Route path='/ShopAllPage' element={<ShopAllPage />} />
-      </Routes>
+      </Routes> 
     
     </>
   );
 }
-
+ 
 export default App;

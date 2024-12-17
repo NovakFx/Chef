@@ -2,7 +2,7 @@ import React from 'react'
 
 const ShopAllPage = () => {
   return (
-    <div>ShopAllPage</div>
+    <div className='mt-96'>ShopAllPage</div>
   )
 }
 

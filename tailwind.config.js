@@ -8,22 +8,27 @@ export default {
   theme: {
     extend: {
       screens: {
-        'ms': '300px',
+        'ms': '320px',
         
         'ms1': '360px',
+        
+        'pro': '375px',
 
-        'sm': '400px',
+        'ms2': '390px',
+
+        'sm': '410px',
         
         'md': '768px',
+
+        'md1': '800px',
    
         'lg': '1024px',
   
         'xl': '1280px',
 
+        'xl2': '1440px',
 
-        'xl2': '1300px',
-
-        '2xl': '1536px',
+        // '2xl': '1536px',
       },
 
       colors: {
@@ -31,7 +36,9 @@ export default {
         customDarkGreen: 'rgba(5, 66, 44, 1)',
         customLightGreen: 'rgba(23, 175, 38, 1)',
         customgray: 'rgba(113, 115, 120, 1)',
-       }
+        mintCream: 'rgba(242, 246, 244, 1)',
+       },
+      
 
     },
   }, 
