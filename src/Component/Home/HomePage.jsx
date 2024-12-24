@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaTruckFast } from "react-icons/fa6";
 import { RiSecurePaymentLine } from "react-icons/ri";
 import { TbShoppingCartDollar } from "react-icons/tb";
+import Extra from './Extra';
 
 const HomePage = () => {
 
@@ -13,7 +14,7 @@ const HomePage = () => {
   });
  
   const updateBackground = () => {
-    if (window.innerWidth >= 1024) {
+    if (window.innerWidth >= 1280) {
       setBgStyle({
         backgroundImage: "url('/image/Bg-xl.png')", 
         backgroundSize: "cover",
@@ -34,18 +35,19 @@ const HomePage = () => {
     return () => window.removeEventListener('resize', updateBackground); 
   }, []);
 
+
   return (
-    <div className='xl:bg-red-400 '>
+    <div className=' '>
       <div
         className="overflow-hidden  h-screen bg-cover  bg-center bg-no-repeat  mt-36 pl-1 md:pb-[70rem] md:mt-48 md1:pb-[75rem] lg:pb-[99rem] lg:pt-10 lg:px-8  xl:pb-0 xl:my-auto "
         style={bgStyle}
       >
-        <div className="px-2 py-10 mx-auto">
+        <div className="px-2 py-10 mx-auto md:mx-4">
           <h1 className="text-yellow-400 text-lg font-light ms2:text-xl sm:text-xl sm:leading-2 md:text-3xl md:pb-1 lg:text-4xl lg:font-thin lg:leading-loose xl:text-xl xl:pt-10">
             BEST SELLER
           </h1>
-          <h1 className="text-2xl font-bold text-white pt-6 sm:pt-3 ms2:text-3xl md:text-7xl md:pb-3 md:leading-tight md1:text-[80px] md1:text-pretty lg:text-7xl xl:text-5xl xl:w-[40rem] xl:leading-tight">
-            BEST DISPENSARY TO BUY WEED ONLINE
+          <h1 className="text-2xl font-bold text-white pt-6 sm:pt-3 ms2:text-3xl md:text-7xl md:pb-3 md:leading-tight md1:text-[76px] md1:text-pretty lg:text-7xl xl:text-5xl xl:w-[40rem] xl:leading-tight">
+            BEST DISPENSARY TO BUY <span className='line-through decoration-black'>WEED</span> ONLINE
           </h1>
           <p className="pt-4 text-lg text-white ms2:text-base sm:text-lg md:text-3xl md:pb-3 md1:text-4xl xl:text-xl xl:opacity-90">
             Vitamins & Supplements
@@ -95,7 +97,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className='pt-4  grid grid-cols-[4rem_auto] md:grid-cols-[5rem_auto] md:pt-7 xl:grid-cols-[6rem_auto] xl:pt-0'>
+        <div className='mb-28 pt-4  grid grid-cols-[4rem_auto] md:grid-cols-[5rem_auto] md:pt-7 xl:grid-cols-[6rem_auto] xl:pt-0'>
         <TbShoppingCartDollar className='text-5xl bg-white py-3 px-3   rounded-full md:text-7xl md:py-5 md:px-5 xl:py-5 xl:px-5'/>
         <div>
           <h1 className='text-xl font-bold inline-flex gap-5 md:text-2xl md:gap-6 xl:text-xl'>Best Quality & Pricing</h1>
@@ -104,16 +106,9 @@ const HomePage = () => {
         </div>
         </div>
       </div>
-      <div>Lorem ipsum dolor sit amet.</div>
-      <div>Lorem ipsum dolor sit amet.</div>
-      <div>Lorem ipsum dolor sit amet.</div>
-      <div>Lorem ipsum dolor sit amet.</div>
-      <div>Lorem ipsum dolor sit amet.</div>
-      <div>Lorem ipsum dolor sit amet.</div>
-      <div>Lorem ipsum dolor sit amet.</div>
-      <div>Lorem ipsum dolor sit amet.</div>
-      <div>Lorem ipsum dolor sit amet.</div>
-      <div>Lorem ipsum dolor sit amet.</div>
+
+     <Extra />
+
     </div> 
 
     </div>

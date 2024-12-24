@@ -37,6 +37,9 @@ export default {
         customLightGreen: 'rgba(23, 175, 38, 1)',
         customgray: 'rgba(113, 115, 120, 1)',
         mintCream: 'rgba(242, 246, 244, 1)',
+        lightGray: 'rgba(157, 158, 162, 1)', 
+        whitishGray: 'rgba(206, 207, 213, 0.4)',  
+        mintGray: 'rgba(244, 244, 244, 1)',  
        },
       
 
