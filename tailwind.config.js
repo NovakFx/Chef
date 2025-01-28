@@ -21,6 +21,8 @@ export default {
         'md': '768px',
 
         'md1': '800px',
+
+        'md2': '884px',
    
         'lg': '1024px',
   
@@ -40,6 +42,8 @@ export default {
         lightGray: 'rgba(157, 158, 162, 1)', 
         whitishGray: 'rgba(206, 207, 213, 0.4)',  
         mintGray: 'rgba(244, 244, 244, 1)',  
+        whitishbrown: 'rgba(195, 210, 204, 1)',  
+        customDark: 'rgba(14,23,25,1)',  
        },
       
 

@@ -14,7 +14,7 @@ const NavbarUp = () => {
   };
 
   return (
-    <div className="bg-white w-full text-black mx-auto my-auto  fixed top-0 left-0 transition-transform z-50" style={{ fontFamily: 'Lexend' }}>
+    <div className="bg-white w-full text-black mx-auto my-auto fixed top-0 left-0 transition-transform z-50" style={{ fontFamily: 'Lexend' }}>
       <nav className="py-3 ms:py-3 ms:px-auto my-auto md:mx-auto xl:mx-auto xl:my-auto xl:pb-0">
         <div className="ms:border-b-2 ms1:mx-auto ms1:pr-6">
           <ul className="flex gap-auto pb-2 md:gap-[56px] sm:border-b-2 md:mx-auto xl:gap-[10%] xl:mx-7 ms:gap-0 xl:border-hidden ">
@@ -27,26 +27,26 @@ const NavbarUp = () => {
             </div>
             <Link to='/'>
             {/* <div className='flex'> */}
-           <div className='flex justify-center'>
+           <div className='flex justify-center xl2:mx-3'>
             <li>
               <img
                 src="/image/Logo.png"
                 alt="logo"
                 width={200}
                 height={100}
-                className="sm:w-[60px]  md:w-[80px] xl:w-[55px] xl:pt-2 sm:py-1 ms:w-[30px]  ms:pt-1 ms1:w-[40px] ms1:pt-0 "
+                className="sm:w-[60px]  md:w-[80px] xl:w-[55px] xl:pt-2 sm:py-1 ms:w-[30px]  ms:pt-1 ms1:w-[35px] ms1:pt-0 "
               />
             </li>
             
               <div className='leading-3  font-semibold sm:pt-5 ms:pt-1 pr-3 ms1:pt-0 md:pt-2 '>
-                 <h1 className='text-base text-customLightGreen leading-4 sm:leading-3 ms:text-xs ms1:text-sm sm:text-xl md:text-4xl xl:text-3xl xl:leading-none '>Manav Shelf</h1>
+                 <h1 className='text-base text-customLightGreen leading-4 sm:leading-3 ms:text-xs ms1:text-sm sm:text-xl md:text-4xl xl:text-xl xl:leading-none '>Tanav Shelf</h1>
                  <h1 className='text-xs font-light text-customGreen ms:text-[0.64rem] ms1:text-xs sm:text-base sm:font-light md:text-2xl xl:leading-none xl:font-extralight '>Muna Ltd</h1>
               </div>
            </div>
               
             {/* </div> */}
             </Link>
-            <div className="sm:hidden xl:flex xl:gap-3 xl2:mx-7">
+            <div className="sm:hidden xl:flex xl:gap-3 xl2:mx-16">
               <input 
                 type="search" 
                 name="Search" 
@@ -58,7 +58,7 @@ const NavbarUp = () => {
               </div>
             </div>
 
-            <div className="py-2 flex gap-10 items-center text-xl  sm:text-sm sm:gap-2 sm:pl-6 sm:my-auto sm:mx-auto ms:text-sm ms:py-0 ms:pl-4 ms:gap-5 md:text-3xl md:px-4 xl:text-lg xl:gap-6 text-customgray ">
+            <div className="py-2 flex gap-10 items-center text-xl  sm:text-sm sm:gap-2 sm:pl-6 sm:my-auto sm:mx-auto ms:text-sm ms:py-0 ms:pl-4 ms:gap-5 md:text-3xl md:px-4 xl:text-lg xl:gap-6 text-customgray xl2:pl-16">
               <button>Your Account</button>
               <IoBagOutline className="text-2xl sm:text-xl mx-1 md:text-3xl" />
             </div>

@@ -37,19 +37,19 @@ const HomePage = () => {
 
 
   return (
-    <div className=' '>
+    <div>
       <div
-        className="overflow-hidden  h-screen bg-cover  bg-center bg-no-repeat  mt-36 pl-1 md:pb-[70rem] md:mt-48 md1:pb-[75rem] lg:pb-[99rem] lg:pt-10 lg:px-8  xl:pb-0 xl:my-auto "
+        className="overflow-hidden  h-screen bg-cover  bg-center bg-no-repeat  mt-36 pl-1 md:pb-[70rem] md:mt-48 md1:pb-[75rem] lg:pb-[99rem] md2:pb-[84rem] lg:pt-10 lg:px-8  xl:pb-0 xl:my-auto "
         style={bgStyle}
       >
-        <div className="px-2 py-10 mx-auto md:mx-4">
-          <h1 className="text-yellow-400 text-lg font-light ms2:text-xl sm:text-xl sm:leading-2 md:text-3xl md:pb-1 lg:text-4xl lg:font-thin lg:leading-loose xl:text-xl xl:pt-10">
+        <div className="px-2 py-10 mx-auto md:mx-4 md2:mx-7 md2:py-20 lg:py-2 xl:py-14 xl:mx-4">
+          <h1 className="text-yellow-400 text-lg font-light ms2:text-xl sm:text-xl sm:leading-2 md:text-3xl md:pb-1 md2:leading-loose lg:text-4xl lg:font-thin lg:leading-loose xl:text-xl xl:pt-10 ">
             BEST SELLER
           </h1>
-          <h1 className="text-2xl font-bold text-white pt-6 sm:pt-3 ms2:text-3xl md:text-7xl md:pb-3 md:leading-tight md1:text-[76px] md1:text-pretty lg:text-7xl xl:text-5xl xl:w-[40rem] xl:leading-tight">
-            BEST DISPENSARY TO BUY <span className='line-through decoration-black'>WEED</span> ONLINE
+          <h1 className="text-2xl font-bold text-white pt-6 sm:pt-3 ms2:text-3xl md:text-7xl md:pb-3 md:leading-tight md1:text-[76px] md1:text-pretty lg:text-7xl xl:text-5xl xl:w-[40rem] xl:leading-tight xl:font-black">
+            BEST DISPENSARY TO <br className='hidden xl:block'/> BUY <span className='line-through decoration-black'>WEED</span> <br className='hidden md1:block xl:hidden'/>ONLINE
           </h1>
-          <p className="pt-4 text-lg text-white ms2:text-base sm:text-lg md:text-3xl md:pb-3 md1:text-4xl xl:text-xl xl:opacity-90">
+          <p className="pt-4 text-lg text-white ms2:text-base sm:text-lg md:text-3xl md:pb-3 md1:text-4xl xl:text-xl xl:opacity-90 md2:pt-6 md2:pb-10">
             Vitamins & Supplements
           </p>
           <div className="flex gap-4 pt-5 md:pb-3 lg:pt-24 xl:pt-20">
@@ -65,13 +65,13 @@ const HomePage = () => {
         </div>
 
         <div className="relative">
-          <div className="absolute left-2 top-11 ms:top-12 ms1:top-44 ms1:-left-2 sm:top-52 sm:left-0 pro:top-44 ms2:top-[200px] ms2:left-0 md:top-[218px] md1:top-[220px] lg:top-[520px] xl:-top-40 xl:left-[42rem] xl2:-top-44 xl2:left-[49rem] ">
+          <div className="absolute left-2 top-11 ms:top-12 ms1:top-44 ms1:-left-2 sm:top-52 sm:left-0 pro:top-44 ms2:top-[200px] ms2:left-0 md:top-[218px] md1:top-[220px] lg:top-[520px] xl:-top-56 xl:left-[42rem] xl2:-top-64 xl2:left-[49rem] ">
             <img src="image/image9.png" alt="" className="ms:w-24 ms1:w-32 ms2:w-32 sm:w-36 md:w-52 md1:w-60 lg:w-80 xl:w-52" />
           </div>
-          <div className="absolute ms:left-28 ms:-bottom-10 ms1:-bottom-48 ms1:left-28 sm:-bottom-56 sm:left-28 pro:-bottom-44 ms2:-bottom-48 ms2:left-32 md:-bottom-48 md:left-60 md1:-bottom-52 md1:left-72 lg:-bottom-[520px] xl:-top-96 xl:left-[56rem] xl2:-top-[25rem] xl2:left-[62rem]">
+          <div className="absolute ms:left-28 ms:-bottom-10 ms1:-bottom-48 ms1:left-28 sm:-bottom-56 sm:left-28 pro:-bottom-44 ms2:-bottom-48 ms2:left-32 md:-bottom-48 md:left-60 md1:-bottom-52 md1:left-72 lg:-bottom-[520px] xl:-top-[28rem] xl:left-[54.9rem] xl2:-top-[29.5rem] xl2:left-[62rem]">
             <img src="image/image8.png" alt="" className="ms:w-24 ms1:w-32 sm:w-44 md:w-56 lg:w-80 xl:w-52" />
           </div>
-          <div className="absolute right-3 top-11 ms:top-12 ms1:top-44 ms1:right-1 sm:top-56 pro:top-44 ms2:top-52 ms2:right-0 md:top-54 md:right-16 md1:top-[220px] lg:top-[530px] lg:right-5 xl:-top-40 xl:-right-20 xl2:-top-56 xl2:-right-0">
+          <div className="absolute right-3 top-11 ms:top-12 ms1:top-44 ms1:right-1 sm:top-56 pro:top-44 ms2:top-52 ms2:right-0 md:top-54 md:right-16 md1:top-[220px] lg:top-[530px] lg:right-5 xl:-top-56 xl:-right-28 xl2:-top-60 xl2:-right-0">
             <img src="image/image10.png" alt="" className="ms:w-24 ms1:w-36 sm:w-40 md:w-56 md1:w-60 lg:w-80 xl:w-52 xl2:w-60" />
           </div>
         </div>
@@ -107,9 +107,10 @@ const HomePage = () => {
         </div>
       </div>
 
-     <Extra />
-
     </div> 
+
+    
+    <Extra />
 
     </div>
   );

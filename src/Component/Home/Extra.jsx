@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Footer from '../Footer/Footer';
 
 const Extra = () => {
    const [bgStyle, setBgStyle] = useState({
@@ -31,9 +32,9 @@ const Extra = () => {
 
 
   return (
-    <div>
-      <div className='relative bg-black text-white w-auto mx-auto  h-[90rem] ms:h-[72rem] ms1:h-[69rem] ms2:h-[82rem] md:h-[77rem] xl:h-[93.7rem] xl2:h-[90rem]'>
-        <div className='absolute -top-24 left-1 mx-5 rounded-3xl  h-56 w-[16.9rem] ms1:mx-7 ms1:w-[18.4rem] bg-fixed ms1:h-56 pro:mx-9 ms2:w-[19.4rem] ms2:h-60 sm:mx-12 md:w-[41.7rem] md1:h-72 md1:w-[44rem] md1:mx-14 lg:w-[48rem] lg:mx-32 xl:w-[72.7rem] xl:mx-14 xl:bg-scroll xl2:w-[86rem] xl2:mx-16' style={bgStyle}>
+     <>
+      <div className='relative bg-black text-white w-auto mx-auto  h-[90rem] ms:h-[72rem] ms1:h-[69rem] pro:h-[72rem] ms2:h-[82rem] md:h-[77rem] xl:h-[93.7rem] xl2:h-[90rem] '>
+        <div className='absolute -top-24 left-1 mx-5 rounded-3xl  h-56 w-[16.9rem] ms1:mx-7 ms1:w-[18.4rem] bg-fixed ms1:h-56 pro:mx-9 ms2:w-[19.4rem] ms2:h-60 sm:mx-12 md:w-[41.7rem] md1:h-72 md1:w-[44rem] md1:mx-14 lg:w-[48rem] lg:mx-32 md2:mx-24 xl:w-[72.7rem] xl:mx-14 xl:bg-scroll xl2:w-[86rem] xl2:mx-16' style={bgStyle}>
         <div className=' py-8 px-5 md:px-10 md:py-12 md1:mx-auto lg:py-16 lg:px-16 xl:px-20 xl2:px-32 xl2:leading-loose'>
           <h1 className='text-2xl font-semibold ms1:text-2xl ms2:text-3xl md:text-5xl md:font-bold xl:pb-3 xl2:text-6xl '>REFER A FRIEND</h1>
           <div className='inline-flex gap-6 pt-6 pro:text-xl pro:font-medium md:text-2xl xl2:text-3xl'>
@@ -45,7 +46,6 @@ const Extra = () => {
           </div>
         </div>
         
-
         </div>
         <div className='pt-52 md1:pt-56  lg:pt-60 xl2:pt-84'>
          <div className='text-center text-[25px] font-semibold leading-snug ms2:text-[28px] ms2:font-bold md:text-[34px]   xl:text-[60px] xl:font-extrabold xl:tracking-wider xl:leading-tight '> 
@@ -67,7 +67,7 @@ const Extra = () => {
             <img src="image/registerIcon.png" alt="" className='-ml-9 pro:w-28 pro:-ml-8 md:w-32 xl:w-40' />
           </div>
                
-          <div className="text-center pt-3 md:mr-24 ">
+          <div className="text-center pt-3 md:mr-24 md2:mr-32 xl:mr-20 xl2:mr-20">
             <h1 className='text-customLightGreen pb-2 ms2:text-xl xl:text-2xl'>REGISTER</h1>
           </div>
           <div className='text-[10px] pro:text-[12px] ms2:text-[15px] text-lightGray mx-2 md:text-[18px] md:px-4 text-center xl:text-[22px]'>
@@ -83,7 +83,7 @@ const Extra = () => {
            <img src="image/shopIcon.png" alt="" className='-ml-7 pro:w-28 pro:-ml-8 md:w-32 xl:w-40' />
           </div>
                
-          <div className="text-center pt-3 pl-5 pro:pl-0 md:mr-24">
+          <div className="text-center pt-3 pl-5 pro:pl-0 md:mr-24 md2:mr-32 xl:mr-20 xl2:mr-20">
             <h1 className='text-customLightGreen pb-2 ms2:text-xl xl:text-2xl'>SHOP</h1>
           </div>
           <div className='text-[10px] pro:text-[12px] ms2:text-[15px] text-lightGray align-middle md:text-[18px] md:px-4 text-center xl:text-[22px]'>
@@ -105,7 +105,7 @@ const Extra = () => {
             <img src="image/paymentIcon.png" alt="" className='-ml-9 pro:w-28 pro:-ml-8 md:w-32 xl:w-40' />
           </div>
                
-          <div className="text-center pt-3 md:mr-16">
+          <div className="text-center pt-3 md:mr-16 md2:mr-32 xl:mr-20 xl2:mr-20">
             <h1 className='text-customLightGreen pb-2 ms2:text-xl xl:text-2xl'>MAKE PAYMENT</h1>
           </div>
           <div className='text-[10px] pro:text-[12px] ms2:text-[15px] text-lightGray mx-2 md:text-[18px] md:px-4 text-center xl:text-[22px]'>
@@ -121,7 +121,7 @@ const Extra = () => {
             <img src="image/checkIcon.png" alt="" className='-ml-7 pro:w-28 pro:-ml-8 md:w-32 xl:w-40' />
           </div>
                
-          <div className="text-center pt-3 pl-5 pro:pl-0 md:mr-20">
+          <div className="text-center pt-3 pl-5 pro:pl-0 md:mr-20 md2:mr-32 xl:mr-20 xl2:mr-20 ">
             <h1 className='text-customLightGreen pb-2 ms2:text-xl xl:text-2xl'>RELAX</h1>
           </div>
           <div className='text-[10px] pro:text-[12px]  ms2:text-[15px] text-lightGray align-middle md:text-[18px] md:px-4 text-center xl:text-[20px] xl:px-0'>
@@ -140,8 +140,8 @@ const Extra = () => {
         </div>
       </div>
 
-      <div className='ms:h-[170rem] ms:mt-8  md:mt-10  md:h-[200rem]'>
-        <div className='md:mx-8 mx-5'>
+      <div className='ms:h-[170rem] ms:mt-8  md:mt-10  md:h-[200rem] '>
+        <div className='md:mx-8 mx-5 xl:mx-11'>
         <div className='ms:text-2xl ms:font-semibold md:text-[40px] md:leading-snug xl:text-[55px] xl:leading-tight xl:tracking-wide'>
           <h1>WHAT MAKES US THE <br className='md:hidden'/> <span className='text-yellow-400 '>#1</span>  <br className='hidden md:block' /> ONLINE <span className='text-customLightGreen '> <br className='md:hidden' /> MARIJUANA</span> <br  /> DISPENSARY IN <br className='md:hidden' /> TORONTO?</h1>
         </div>
@@ -222,14 +222,112 @@ const Extra = () => {
         </div>
 
 
-        <div className='bg-mintGray h-[50rem]'>
+        <div className='bg-mintGray h-[100rem] ms2:h-[104.8rem] md:h-[81rem] md1:h-[88rem] md2:h-[97rem] xl:h-[63rem]'>
+
+          <div className='inline-flex gap-16  mx-7 my-5 mt-11 ms1:gap-24 pro:gap-28 ms2:gap-24 sm:gap-28 md:gap-72 md2:mx-8 md2:gap-96 xl:mx-11 xl:gap-[49rem] xl2:gap-[60rem]'>
+            <h1 className='font-bold ms2:text-lg md:text-[2.20rem] md2:text-[2.30rem] xl:text-[2rem]'>WEED EDUCATION</h1>
+            <button className='text-xs text-customLightGreen underline md:text-xl md2:text-2xl'>Show All</button>
+          </div>
+
+          <div className="border-b-2 border-gray-400 mx-7 opacity-50 mt-2 md2:mx-8 xl:mx-11"></div>
+
+      {/* Nothing weird here just making my code neat */}
+       <div className='xl:grid xl:grid-cols-3 xl:mx-7 xl:mt-7'> 
+
+        <div className='md:grid md:grid-cols-[auto_23rem] xl:block'>
+
+          <div className='mt-8 md:mt-6 xl:mt-6'>
+            <img src="image/image17.png" className=' px-7 mt-4 w-96 md:w-[35rem] xl:w-[27rem] xl:px-5' alt="" />
+          </div>
+
+          <div className='mx-7 mt-5 md:mt-9 md:mx-0 md2:mt-10 xl:mt-5 xl:mx-7'>
+            <p className='text-sm text-customgray md:text-lg md2:text-xl xl:text-lg'>December 24, 2024</p>
+            <h1 className='font-bold text-lg pt-2 leading-snug ms2:text-xl md:text-[27px] md2:text-[30px] xl:text-[25px]'>12 Mistakes To Avoid When <br className='hidden ms:block'/> Buying Cannabis Online</h1>
+            <div className='mt-3 '>
+              <p className='text-customgray text-sm md:text-base md:mr-2  md1:text-lg md1:mr-3 md2:text-xl xl:text-xl'>Buying cannabis online can be a great way to get your hands on the products you need without leaving the comfort of your home.  But …</p>
+              <div className='mt-1 md2:mt-1'>
+                 <button className='text-base text-customLightGreen underline md:text-lg md1:text-xl md2:text-xl'>Read More</button>
+              </div>
+            </div>
+          </div>
 
         </div>
 
+      {/* Nothing weird here just making my code neat */}
+
+
+      {/* Nothing weird here just making my code neat */}
+
+        <div className='md:grid md:grid-cols-[auto_23rem] md:mt-3 xl:block xl:mt-0'>
+
+          <div className='mt-8 md:mt-6 xl:mt-6'>
+            <img src="image/image18.png" className=' px-7 mt-4 w-96 md:w-[35rem] xl:w-[27rem] xl:px-5' alt="" />
+          </div>
+          <div className='mx-7 mt-5 md:mt-9 md:mx-0 md2:mt-10 xl:mx-7 xl:mt-5'>
+            <p className='text-sm text-customgray md:text-lg md2:text-xl xl:text-lg'>December 24, 2024</p>
+            <h1 className='font-bold text-lg pt-2 leading-snug ms2:text-xl md:text-[27px] md2:text-[30px] xl:text-[25px]'>How To Store Cannabis and <br className='xl:hidden'/> Keep it Fresh and Potent?</h1>
+            <div className='mt-3 '>
+              <p className='text-customgray text-sm md:text-base md:mr-2 md1:text-lg md1:mr-3 md2:text-xl'>Cannabis packaging has advanced dramatically in recent years, whether your state has a medicinal marijuana programme, legal adult-use weed, or both. Most ...</p>
+              <div className='mt-1'>
+                 <button className='text-base text-customLightGreen underline md:text-lg md1:text-xl md2:text-xl'>Read More</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      {/* Nothing weird here just making my code neat */}
+
+
+      {/* Nothing weird here just making my code neat */}
+
+        <div className='md:grid md:grid-cols-[auto_23rem] md:mt-3 xl:block xl:mt-0'> 
+
+          <div className='mt-8 md:mt-6 xl:mt-6'>
+            <img src="image/image19.png" className=' px-7 mt-4 w-96 md:w-[35rem] xl:w-[27rem] xl:px-5' alt="weed" />
+          </div>
+          <div className='mx-7 mt-5 md:mt-9 md:mx-0 md2:mt-10 xl:mx-7 xl:mt-5'>
+            <p className='text-sm text-customgray md:text-lg  md2:text-xl xl:text-lg '>December 24, 2024</p>
+            <h1 className='font-bold text-lg pt-2 leading-snug ms2:text-xl md:text-[25px] md2:text-[30px] xl:text-[25px]'>The Ultimate Guide to Checking the Quality of Cannabis – 10 Industry Leading Tips</h1>
+            <div className='mt-3 '>
+              <p className='text-customgray text-sm md:text-base md:mr-2 md1:text md1:mr-3 md2:text-xl '>Quality cannabis is a term used to describe cannabis products that meet specific standards of excellence. It is essential to understand what quality cannabis means, …</p>
+              <div className='mt-1'>
+                 <button className='text-base text-customLightGreen underline md:text-lg md1:text-xl md2:text-xl'>Read More</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        </div>
+
+      {/* Nothing weird here just making my code neat */}
+
+
+          <div className='relative mt-16 mx-7  md:top-[5rem] md1:mx-16 md2:mx-40 xl:top-14 xl:mx-28 '>
+            <div className='absolute -top-10 left-0 bg-customDarkGreen text-white rounded-2xl px-3 py-4 h-[18rem] pro:px-5 pro:py-5 pro:h-[20rem]  md:h-[29rem] md:py-9 md:px-16 md:mx-16 md:tracking-wide md:rounded-3xl md2:mx-0 xl:w-[65rem] xl:mx-0 xl:h-[25rem] xl2:w-[80rem] xl2:h-[27rem]'>
+              <div>
+                <h1 className='text-2xl font-bold pro:text-3xl md:text-5xl md:leading-tight md1:text-[45px] xl:text-[50px] xl:font-extrabold xl2:text-[60px]'>UNLOCK 20% OFF <br className='xl:hidden'/>YOUR <br className='hidden xl:block'/> FIRST <br className='xl:hidden'/> ORDER</h1>
+                <p className='text-sm  text-whitishbrown pro:pt-2 md:text-base xl:text-xl xl:font-light xl:pt-3 xl2:text-2xl'>Reveal coupon code by entering your <br className='hidden pro:block xl:hidden'/>email</p>
+              </div>
+              <div className="border-b-[1px] border-gray-400 mx-1 opacity-50 mt-1 md:border-b-[3px] xl:pt-7"></div>
+              <div className='xl:mt-7 xl:inline-flex xl:gap-5'>
+              <input type="email" name="couponEmail" id="email" required placeholder='Email Address' className='border-[1px] border-gray-400 opacity-50 bg-transparent mt-1 mx-1 py-2 px-4 rounded-full ms1:px-8 ms1:py-3 sm:px-10  sm:text-lg md:text-xl md:pl-8 md:w-96 md:mx-3 md:py-4  md:mt-2 xl:w-[41rem] xl:py-4 xl2:w-[56rem]  xl2:py-5'/>
+              <div className='justify-center text-center mt-2 md2:mt-4 xl:mt-2'>
+                <button type="submit" className='bg-customLightGreen px-6 py-2 rounded-full pro:py-3 pro:my-1 md:mx-4 md:text-xl md:my-2 '>Reveal coupon</button>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+
+        <Footer />
 
       </div>
-
-    </div>
+      </>
+   
   )
 }
 
